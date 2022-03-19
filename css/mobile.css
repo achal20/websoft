@@ -1,0 +1,76 @@
+/* mobile menu*/
+.mobile-menu .nav{padding:0px;     width: 100%;}
+.mobile-menu,.wrapper{transition:all ease-in-out 0.4s;-moz-transition:all ease-in-out 0.4s;-webkit-transition:all ease-in-out 0.4s;-o-transition:all ease-in-out 0.4s;}
+.menu-hide{display:none;}
+.mobile-menu .site-logo {padding-left: 25px;}
+
+.mobile-menu.show-menu{-webkit-transform:translateX(0px);-moz-transform:translateX(0px);-ms-transform:translateX(0px);-o-transform:translateX(0px);transform:translateX(0px);}
+.mobile-menu {padding:40px 0px;position:fixed;height:100%;width:310px;z-index:99999999;max-width:310px;
+-webkit-transform:translateX(-310px);-moz-transform:translateX(-310px);-ms-transform:translateX(-310px);-o-transform:translateX(310px);
+transform:translateX(-310px);overflow:auto;top:0;     
+    background:#fff;
+color:#fff; }
+
+.mobile-menu ul{margin:0px;padding:0px;margin-top:28px;width:100%;}
+.mobile-menu ul ul{margin-top:0px;}
+.mobile-menu ul li{list-style:none; text-transform:uppercase;padding:0px 10px; transition:all .4s; border-bottom: rgba(195, 193, 193, 0.16) solid 1px;display: block;    width: 100%; margin:0px; 	position: relative; font-size: 14px;     font-weight: 400;
+   color: #000;
+}
+.mobile-menu ul li:last-child{border:none;}
+.mobile-menu ul li a{ display: inline-block; padding: 10px 20px; color: #616767; width: 100%;} 
+ .mobile-menu ul ul{display:none;}
+.mobile-menu ul ul li{font-size: 13px;   font-weight: 400;}
+.mobile-menu ul li .dropdown .lni-chevron-down{display: none;}
+.mobile-menu ul li .dropdown.open .lni-chevron-right{display:none;}
+.mobile-menu ul li .dropdown.open .lni-chevron-down{display:block; padding-top: 5px;}
+
+.mobile-menu span.dropdown { position: absolute; right: 15px;  top: 0px;  font-size: 15px;
+	padding: 0px 7px; height: 44px;    line-height: 44px;     width: 100%;    text-align: right;}
+.mobile-menu ul li.self-link span.dropdown { width: auto;}
+.mobile-menu ul ul span.dropdown {padding-right: 0px;}
+
+.mobile-menu ul li a.btn {margin-top: 15px;}
+.move-to-right{-webkit-transform:translateX(310px);-moz-transform:translateX(310px);-ms-transform:translateX(310px);-o-transform:translateX(310px);transform:translateX(310px);}
+.cross{top:-0px !important;margin-right:12px !important;float:right !important;}
+.toggle-mobile, .cross {position:absolute; width:28px;height:35px; overflow:hidden;cursor:pointer;float:right;color:#b4b4b4;z-index:10;text-align:left;margin-right:0px; right: 15px; top: -10px; display:none;}
+.toggle-mobile span, .cross span{background:#cb171b;height:2px;position:absolute;overflow:hidden;width:28px; }
+.cross span.one{top:15px;transform:rotate(45deg);}
+.cross span.two{bottom:18px;transform:rotate(-45deg);}
+.toggle-mobile span.one{top:8px;}
+.toggle-mobile span.two{top:16px;}
+.toggle-mobile span.three{top:24px;}
+ .menu-canvas-off{overflow-x:hidden;}
+.menu-canvas .wrapper:after{content:"";position:absolute;top:0;width:100%;height:100%;z-index:999;background:rgba(0, 0, 0, 0.4);}
+ 
+
+.mobile-menu.show-menu { box-shadow:4px 0px 8px 0 rgba(0, 0, 0, 0.2);  }
+.mobile-menu.show-menu .cross{margin-right:-11px !important;float:right !important;top:10px !important;  right: 25px;}
+.toggle-mobile span{background:#fff;height:2px;position:absolute;overflow:hidden;width:25px;}
+.toggle-mobile span.one{top:8px;}.toggle-mobile span.two{top:15px;}.toggle-mobile span.three{top:22px;}
+.toggle-mobile span{background:#cb171b;height:3px;position:absolute;overflow:hidden;width:25px;-moz-transition:all .4s cubic-bezier(.1,.7,.3,1);-webkit-transition:all .4s cubic-bezier(.1,.7,.3,1);-o-transition:all .4s cubic-bezier(.1,.7,.3,1);-ms-transition:all .4s cubic-bezier(.1,.7,.3,1);transition:all .4s cubic-bezier(.1,.7,.3,1);}
+.toggle-mobile span.one{top:0px;}.toggle-mobile span.two{top:8px;}.toggle-mobile span.three{top:15px;}
+.toggle-mobile.open span.one{transform:rotate3d(0,0,1,-45deg);-webkit-transform:rotate3d(0,0,1,-45deg);top:10px;}
+.toggle-mobile.open span.three{transform:rotate3d(0,0,1,45deg);-webkit-transform:rotate3d(0,0,1,45deg);top:10px;}
+.toggle-mobile.open span.two{display:none;}
+.mobile-menu .dropdown, .dropup { position: relative;    margin-left: 0px;}
+.mobile-menu ul.main-list { max-height: 400px;  overflow-y: auto; padding-bottom: 20px;}
+.mobile-menu span.dropdown.open {top: 8px;}
+
+.social-icon {padding: 20px 15px 0px;}
+
+
+.mobile-menu .site-logo { padding-left: 25px;}
+.mobile-menu ul li a.btn {  margin-top: 15px;}
+.mobile-menu .social-icon ul li { display: inline-block;  width: auto;  padding: 0px; border: none;
+    line-height: normal;}
+.mobile-menu .social-icon ul li a { padding: 0px 7px;  font-size: 24px;  margin-right: 10px;}
+
+
+
+
+
+
+
+
+
+
