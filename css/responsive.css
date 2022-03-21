@@ -157,7 +157,7 @@ h1 {font-size: 32px;}
   
   .toggle-mobile, .cross {top:20px !important;}
  .toggle-mobile {  position: relative !important;    top: 6px !important;right: 0px !important;}
-  .tfn i {display:inline-block; color: #c41316; transform: rotate(100deg);}
+  .tfn i {display:inline-block; color: #007bff; transform: rotate(100deg);}
   .mob_dn {display:none;}
   .tfn {text-align: center; padding: 4px 0;}
   .mt-6 {margin-top: 0px;}

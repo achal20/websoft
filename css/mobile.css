@@ -33,7 +33,7 @@ color:#fff; }
 .move-to-right{-webkit-transform:translateX(310px);-moz-transform:translateX(310px);-ms-transform:translateX(310px);-o-transform:translateX(310px);transform:translateX(310px);}
 .cross{top:-0px !important;margin-right:12px !important;float:right !important;}
 .toggle-mobile, .cross {position:absolute; width:28px;height:35px; overflow:hidden;cursor:pointer;float:right;color:#b4b4b4;z-index:10;text-align:left;margin-right:0px; right: 15px; top: -10px; display:none;}
-.toggle-mobile span, .cross span{background:#cb171b;height:2px;position:absolute;overflow:hidden;width:28px; }
+.toggle-mobile span, .cross span{background:#007bff;height:2px;position:absolute;overflow:hidden;width:28px; }
 .cross span.one{top:15px;transform:rotate(45deg);}
 .cross span.two{bottom:18px;transform:rotate(-45deg);}
 .toggle-mobile span.one{top:8px;}
@@ -47,7 +47,7 @@ color:#fff; }
 .mobile-menu.show-menu .cross{margin-right:-11px !important;float:right !important;top:10px !important;  right: 25px;}
 .toggle-mobile span{background:#fff;height:2px;position:absolute;overflow:hidden;width:25px;}
 .toggle-mobile span.one{top:8px;}.toggle-mobile span.two{top:15px;}.toggle-mobile span.three{top:22px;}
-.toggle-mobile span{background:#cb171b;height:3px;position:absolute;overflow:hidden;width:25px;-moz-transition:all .4s cubic-bezier(.1,.7,.3,1);-webkit-transition:all .4s cubic-bezier(.1,.7,.3,1);-o-transition:all .4s cubic-bezier(.1,.7,.3,1);-ms-transition:all .4s cubic-bezier(.1,.7,.3,1);transition:all .4s cubic-bezier(.1,.7,.3,1);}
+.toggle-mobile span{background:#007bff;height:3px;position:absolute;overflow:hidden;width:25px;-moz-transition:all .4s cubic-bezier(.1,.7,.3,1);-webkit-transition:all .4s cubic-bezier(.1,.7,.3,1);-o-transition:all .4s cubic-bezier(.1,.7,.3,1);-ms-transition:all .4s cubic-bezier(.1,.7,.3,1);transition:all .4s cubic-bezier(.1,.7,.3,1);}
 .toggle-mobile span.one{top:0px;}.toggle-mobile span.two{top:8px;}.toggle-mobile span.three{top:15px;}
 .toggle-mobile.open span.one{transform:rotate3d(0,0,1,-45deg);-webkit-transform:rotate3d(0,0,1,-45deg);top:10px;}
 .toggle-mobile.open span.three{transform:rotate3d(0,0,1,45deg);-webkit-transform:rotate3d(0,0,1,45deg);top:10px;}
